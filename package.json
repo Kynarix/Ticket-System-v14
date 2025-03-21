@@ -1,0 +1,26 @@
+{
+  "name": "centralware-discord-ticket-system-bot-kynarix-twixx",
+  "version": "1.0.1",
+  "description": "Bu bot centralware ticket sisteminden ilham alınarak yapılmıştır. Paylaşım amacım ise son zamanlardaki asılsız suçlamalardır.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node src/deploy/deploy-commands.js",
+    "delete": "node src/deploy/delete-commands.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kynarix",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "better-sqlite3": "^9.4.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "module"
+}
